@@ -25,11 +25,22 @@
             .header:hover {
                 height:15%;
             }
+            #whindmill{
+                z-index:-1;
+                position: absolute;
+                right: 0;
+                height: 90%;
+                bottom: 0;
+                transition: 1s;
+            }
             span{
                 transition:1s;
             }
             span:hover{
                 font-size: 30px;
+            }
+            #whindmill:hover{
+                height: 100%;
             }
         </style>
     </head>
@@ -44,5 +55,6 @@
                 <a class="text" href=#><span>Social Media</span></a>
             </p>
         </div>
+        <img id="whindmill" src="whindmill.gif">
     </body>
 </html>
